@@ -12,7 +12,6 @@ interface NewTransactionModalProps {
   isOpen: boolean;
   onRequestClose: () => void
 }
-Modal.setAppElement("#root")
 
 export function NewTransactionModal({ isOpen, onRequestClose }: NewTransactionModalProps) {
   const [title, setTitle] = useState('')
